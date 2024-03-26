@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script type="text/javascript">
+        function pesan1(){
+            alter('Hallo Dunia');
+        }
+
+        function pesan2(nama){
+            alert('hallo' + nama);
+        }
+
+        function tampilPesan(){
+            return ("Sistem Infomasi UMDP");
+        }
+
+        function ValidasiUmur(){
+            //let umur= document.getElementById("umur").value;
+            let umur= parseInt(document.getElementById("umur").value);
+            document.getElementById("info").innerHTML=umur;
+            if(ValidasiUmur>17){
+                umur = layak;
+            }else{
+                umur= tidaklayak;
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <h1 id ="studi">Program Studi : Sistem Informasi</h1>
+
+    <script type="text/javascript">
+        document.write("<h1>Belajar JavaScript</h1>");
+        let varA= "budi raharjo";
+        document.write("Nama Penulis: " + varA);
+
+        console.log("VarA" + varA);
+
+        document.getElementById("studi").innerHTML = "Universitas MDP";
+        document.getElementById("studi").style.fontSize="40px";
+        document.write("<br> Metode tampilpesan()= " + tampilPesan());
+
+    </script>
+    <br />
+
+    <button onclick="pesan1('bjhbjh')"> Tampil Pesan 1</button>
+    <br />
+    <button onclick="pesan2('Dewi sukarno')"> Tampil Pesan 2</button>
+
+    <br />
+    Validasi Umur: <input type="text" id="umur" />
+    <br />
+    <button onclick="ValidasiUmur()">Validasi</button>
+    <p id="info"> Cek Validasi</p>
+    <br />
+</body>
+</html>
