@@ -1,6 +1,8 @@
-## Hi
+#### Hi
 
-## About Me
-> If we pull together and commit ourselves, then we can push through anything.
-
-— Mona the Octocat
+### About Me
+> NAMA : Angelin Agustin
+> NPM : 2226240035
+### Informasi Perkuliahan
+> Universitas Multidata Palembang
+> Mahasiswi Semester 4
