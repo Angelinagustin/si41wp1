@@ -4,4 +4,4 @@
 * NPM : 2226240035
 
 **Informasi Perkuliahan**
-* Matakuliah : Pengembangan Aplikasi Bergerak 1
+* Matakuliah : Pengembangan Aplikasi Web 1
